@@ -7,7 +7,7 @@ set -e
 cp -r * $1
 
 # make the project directory
-mkdir $1/project
+#mkdir $1/project
 
 # create the .env file
 mv $1/env.template $1/.env
